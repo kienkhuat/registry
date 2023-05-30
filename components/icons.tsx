@@ -5,6 +5,7 @@ import {
   Twitter,
   type Icon as LucideIcon,
   FileText,
+  UserPlus,
 } from "lucide-react"
 
 export type Icon = LucideIcon
@@ -14,6 +15,7 @@ export const Icons = {
   moon: Moon,
   twitter: Twitter,
   fileIcon: FileText,
+  userPlus: UserPlus,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
@@ -38,5 +40,4 @@ export const Icons = {
       <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
     </svg>
   ),
-  
 }
